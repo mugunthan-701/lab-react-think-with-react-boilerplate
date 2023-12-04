@@ -1,4 +1,3 @@
-
 const container = document.getElementById('new');
 const Container = () =>{
     return React.createElement(`div`,null,`Hey Kalvians! Welcome to React Learning`,
@@ -15,4 +14,18 @@ class ReactContainer extends React.Component{
       }
     
   }
-  ReactDOM.render(React.createElement(ReactContainer),container);
+
+
+
+// class ReactContainer extends React.Component {
+//   render() {
+//     return (
+//       <div>
+//         Hello! Welcome to Kalvium   
+//         <div>This is babel</div>
+//       </div>
+//     );
+//   }
+// }
+
+// ReactDOM.render(<ReactContainer />, container);
